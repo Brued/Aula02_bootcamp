@@ -1,7 +1,13 @@
-# 2 - Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-
-x = int (input("Digite um numero: "))
-resul = x % 5
-print ("O resto da divisão por 5 é: ", resul)
 
 
+
+
+
+
+
+# 3 - Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+x = int(input("Digite um numero: "))
+y = int(input("Digite o segundo numero: "))
+
+mult = x * y 
+print("A multiplicação deles é: ", mult)
