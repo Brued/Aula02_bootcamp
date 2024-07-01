@@ -50,8 +50,14 @@
 # print ("A média deles é: ", media)
 
 # 8 - Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-x = float (input("Digite um numero base: "))
-y = float (input("Digite o expoente: "))
+# x = float (input("Digite um numero base: "))
+# y = float (input("Digite o expoente: "))
+# pot =  x ** y
+# print (f"A potencia de {x} elevado a {y} é igual a:  ", pot)    
 
-pot =  x ** y
-print (f"A potencia de {x} elevado a {y} é igual a:  ", pot)    
+# 9 Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+temp_celsius= float (input("Digite o valor da temperatura: "))
+temp_fahrenheit = (temp_celsius * 9/5) + 32
+print(f"{temp_celsius} º celsius em Fahrenheit é: ", temp_fahrenheit)
+
+
