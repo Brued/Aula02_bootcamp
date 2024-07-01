@@ -44,7 +44,14 @@
 
 
 # 7 - Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-x = float (input ("Digite um numero: "))
-y = float (input ("Digite um segundo numero: "))
-media = (x + y)/2
-print ("A média deles é: ", media)
+# x = float (input ("Digite um numero: "))
+# y = float (input ("Digite um segundo numero: "))
+# media = (x + y)/2
+# print ("A média deles é: ", media)
+
+# 8 - Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+x = float (input("Digite um numero base: "))
+y = float (input("Digite o expoente: "))
+
+pot =  x ** y
+print (f"A potencia de {x} elevado a {y} é igual a:  ", pot)    
