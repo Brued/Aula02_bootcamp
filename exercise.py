@@ -37,7 +37,14 @@
 # Números de Ponto Flutuante (float)
 
 # 6 - Escreva um programa que receba dois números flutuantes e realize sua adição.
-x = float (input("Digite um numero: "))
-y = float (input("Digite um numero: "))
-sum = x + y
-print("A soma deles é: ", sum)
+#x = float (input("Digite um numero: "))
+#y = float (input("Digite um numero: "))
+#sum = x + y
+#print("A soma deles é: ", sum)
+
+
+# 7 - Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+x = float (input ("Digite um numero: "))
+y = float (input ("Digite um segundo numero: "))
+media = (x + y)/2
+print ("A média deles é: ", media)
