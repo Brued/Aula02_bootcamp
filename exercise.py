@@ -1,3 +1,5 @@
+# Inteiros (int)
+
 # 1 - Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
 # x = int(input("Digite um numero inteiro: "))
@@ -28,7 +30,14 @@
 # print("O resultado da divisão inteira é: ", div)
 
 # 5 - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-x = int(input("Digite um numero: "))
-resul = x **2
-print("O quadrado dele é: ", resul)
+# x = int(input("Digite um numero: "))
+# resul = x **2
+# print("O quadrado dele é: ", resul)
 
+# Números de Ponto Flutuante (float)
+
+# 6 - Escreva um programa que receba dois números flutuantes e realize sua adição.
+x = float (input("Digite um numero: "))
+y = float (input("Digite um numero: "))
+sum = x + y
+print("A soma deles é: ", sum)
