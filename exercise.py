@@ -56,8 +56,15 @@
 # print (f"A potencia de {x} elevado a {y} é igual a:  ", pot)    
 
 # 9 Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-temp_celsius= float (input("Digite o valor da temperatura: "))
-temp_fahrenheit = (temp_celsius * 9/5) + 32
-print(f"{temp_celsius} º celsius em Fahrenheit é: ", temp_fahrenheit)
+# temp_celsius= float (input("Digite o valor da temperatura: "))
+# temp_fahrenheit = (temp_celsius * 9/5) + 32
+# print(f"{temp_celsius} º celsius em Fahrenheit é: ", temp_fahrenheit)
+
+# 10 - Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+import math
+
+raio = float(input("Qual o valor do raio do circulo?"))
+area = math.pi * raio ** 2
+print(f"A area desse circulo é dada por:{area:.2f} ")
 
 
