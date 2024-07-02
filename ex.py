@@ -113,10 +113,13 @@ import math
 # print("Resultado do AND lógico:", resultado_and)
 
 # 17 - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-valor1= input("Insira a primeira expressão bool:")
-valor2 = input("Insira a segunda expressão bool: ")
-resultado_or = valor1 or valor2
-print("Resultado do OR lógico:", resultado_or)
+# valor1= input("Insira a primeira expressão bool:")
+# valor2 = input("Insira a segunda expressão bool: ")
+# resultado_or = valor1 or valor2
+# print("Resultado do OR lógico:", resultado_or)
 
+# 18 - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor
 
-
+valor = input("Insira um valor bool: ")
+novo_valor = not valor
+print("O valor invertido é: ", novo_valor)
