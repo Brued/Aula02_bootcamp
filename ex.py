@@ -103,3 +103,12 @@ import math
 # string2 = input(" Insira a parte dois: ")
 # resultado = string1 + " " + string2
 # print("Concatenando: ", resultado)
+
+# 16 - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário 
+# e retorne o resultado da operação AND entre elas.
+# Exemplo de entrada
+valor1= input("Insira a primeira expressão bool:")
+valor2 = input("Insira a segunda expressão bool: ")
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
+
