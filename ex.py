@@ -86,7 +86,14 @@ import math
 # 13 -Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, 
  #imprima esta frase sem espaços em branco no início e no final.
 
-frase = input("Digite uma frase: ")
-nova_frase = frase.strip()
-print("A nova frase sem espaço no inicio e no final:", nova_frase)
+# frase = input("Digite uma frase: ")
+# nova_frase = frase.strip()
+# print("A nova frase sem espaço no inicio e no final:", nova_frase)
 
+# 14 - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, 
+# imprima o dia, o mês e o ano separadamente.
+dma= input("Digite a data/ mes / ano: ")
+dia, mes, ano = dma.split("/") 
+print("Dia: ", dia)
+print("Mes: ", mes)
+print("Ano: ", ano)
