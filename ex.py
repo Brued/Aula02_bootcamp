@@ -132,7 +132,22 @@ import math
  
 
  # 20 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-valor1 = int(input("Digite um numero: "))
-valor2 = int(input("Digite um segundo numero: "))
-resul_dif= valor1 != valor2
-print("Os numeros são diferente: ", resul_dif)
+# valor1 = int(input("Digite um numero: "))
+# valor2 = int(input("Digite um segundo numero: "))
+# resul_dif= valor1 != valor2
+# print("Os numeros são diferente: ", resul_dif)
+
+
+# 21 - Escreva um programa que converta a temperatura de Celsius para Fahrenheit. O programa
+#  deve solicitar ao usuário a temperatura em Celsius e, utilizando try-except, garantir 
+# que a entrada seja numérica, tratando qualquer ValueError. 
+# Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
+
+
+try:
+    temp_celsius = float(input("Insira o valor da temperatura em celsius: "))
+    temp_fahrenheit = (temp_celsius * 9/5) + 32
+    print(f"A temperatura em Fahrenheit é: ", temp_fahrenheit)
+except ValueError:
+    print("Digite uma temperatura valida novamente.")
+
