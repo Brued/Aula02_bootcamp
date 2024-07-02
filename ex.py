@@ -71,6 +71,13 @@ import math
 
 # 11 . Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
  
-texto = input("Digite um texto: ")
-texto_maiuscula = texto.upper()
-print ("Texto em maiúscula: ", texto_maiuscula)
+# texto = input("Digite um texto: ")
+# texto_maiuscula = texto.upper()
+# print ("Texto em maiúscula: ", texto_maiuscula)
+
+
+# 12 - Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+nome = input ("Digite o seu nome completo: ")
+nome_minuscula = nome.lower()
+print("O nome em minusculo é: ", nome_minuscula)
