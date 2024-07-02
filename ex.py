@@ -144,10 +144,35 @@ import math
 # Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
 
 
-try:
-    temp_celsius = float(input("Insira o valor da temperatura em celsius: "))
-    temp_fahrenheit = (temp_celsius * 9/5) + 32
-    print(f"A temperatura em Fahrenheit é: ", temp_fahrenheit)
-except ValueError:
-    print("Digite uma temperatura valida novamente.")
+# try:
+#     temp_celsius = float(input("Insira o valor da temperatura em celsius: "))
+#     temp_fahrenheit = (temp_celsius * 9/5) + 32
+#     print(f"A temperatura em Fahrenheit é: ", temp_fahrenheit)
+# except ValueError:
+#     print("Digite uma temperatura valida novamente.")
+
+# 21 - Crie um programa que verifica se uma palavra ou frase é um palíndromo
+#  (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações).
+#  Utilize try-except para garantir que a entrada seja uma string. 
+# Dica: Utilize a função isinstance() para verificar o tipo da entrada.
+
+
+
+# condição de inverter if palavra == palavra[::-1]:
+
+palavra_frase = input("Digite uma palavra: ")
+
+if isinstance (palavra_frase, str):
+     formatado = palavra_frase.replace("", "").lower()
+     if formatado == formatado [::-1]:
+        print("É um Palíndromo.")
+     else: 
+        print("Não é um Palíndromo." )
+else:
+    print("Digite novamente uma palavra ou frase válida.")
+
+
+
+
+
 
