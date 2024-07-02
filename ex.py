@@ -125,8 +125,14 @@ import math
 # print("O valor invertido é: ", novo_valor)
 
 #  19 - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-valor1 = int(input("Digite um numero: "))
-valor2 = int (input("Digite um segundo numero: "))
-comp = valor1 == valor2
-print("Os numeros são iguais: ", comp)
+# valor1 = int(input("Digite um numero: "))
+# valor2 = int (input("Digite um segundo numero: "))
+# comp = valor1 == valor2
+# print("Os numeros são iguais: ", comp)
  
+
+ # 20 - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+valor1 = int(input("Digite um numero: "))
+valor2 = int(input("Digite um segundo numero: "))
+resul_dif= valor1 != valor2
+print("Os numeros são diferente: ", resul_dif)
