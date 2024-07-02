@@ -78,6 +78,15 @@ import math
 
 # 12 - Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 
-nome = input ("Digite o seu nome completo: ")
-nome_minuscula = nome.lower()
-print("O nome em minusculo é: ", nome_minuscula)
+# nome = input ("Digite o seu nome completo: ")
+# nome_minuscula = nome.lower()
+# print("O nome em minusculo é: ", nome_minuscula)
+
+
+# 13 -Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, 
+ #imprima esta frase sem espaços em branco no início e no final.
+
+frase = input("Digite uma frase: ")
+nova_frase = frase.strip()
+print("A nova frase sem espaço no inicio e no final:", nova_frase)
+
