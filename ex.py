@@ -179,35 +179,53 @@ import math
 # Imprima o resultado ou uma mensagem de erro apropriada.
 
 
-try: 
-    entrada1 = float(input("Digite a primeira entrada: "))
-    entrada2 = float(input("Digite a segunda entrada: "))
-    operacao = input("Insira a operação +, -, *, /: ")
+# try: 
+#     entrada1 = float(input("Digite a primeira entrada: "))
+#     entrada2 = float(input("Digite a segunda entrada: "))
+#     operacao = input("Insira a operação +, -, *, /: ")
 
 # soma
-    if operacao == '+' :
-        resul= entrada1 + entrada2
+#     if operacao == '+' :
+#         resul= entrada1 + entrada2
 
-    elif  operacao == '-' : 
-        resul = entrada1 - entrada2
+#     elif  operacao == '-' : 
+#         resul = entrada1 - entrada2
 
-    elif operacao == '*':
-        resul = entrada1 * entrada2
+#     elif operacao == '*':
+#         resul = entrada1 * entrada2
 
-    elif operacao == '/':
-        if entrada2 != 0 :
-            resul = entrada1 / entrada2
+#     elif operacao == '/':
+#         if entrada2 != 0 :
+#             resul = entrada1 / entrada2
 
-        else:
-            print("Divisão por zero.")
-            resul = None
+#         else:
+#             print("Divisão por zero.")
+#             resul = None
+#     else: 
+#         print("Operador inválido!")
+#         resul = None
+#     if resul is not None:
+#         print("Resultado: ", resul)
+# except ValueError:
+#     print("Entrada inválida. Insira numeros!")
+
+# 24 - Escreva um programa que solicite ao usuário para digitar um número. 
+# Utilize try-except para assegurar que a entrada seja numérica e utilize 
+# if-elif-else para classificar o número como "positivo", "negativo" ou "zero". 
+# Adicionalmente, identifique se o número é "par" ou "ímpar".
+
+
+try:
+    num = int(input("Insira um número: "))
+    if num < 0:
+      print("O valor é negativo!")
+    elif num > 0:
+      print ("O valor é positivo!")
     else: 
-        print("Operador inválido!")
-        resul = None
-    if resul is not None:
-        print("Resultado: ", resul)
+      print("O valor é zero!")
+    if num % 2 == 0:
+         print("Par")
+    else:
+         print("Ímpar!") 
 except ValueError:
-    print("Entrada inválida. Insira numeros!")
-
-
-
+   print("Entrada inválida.")
