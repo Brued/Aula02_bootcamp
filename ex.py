@@ -160,19 +160,54 @@ import math
 
 # condição de inverter if palavra == palavra[::-1]:
 
-palavra_frase = input("Digite uma palavra: ")
+# palavra_frase = input("Digite uma palavra: ")
 
-if isinstance (palavra_frase, str):
-     formatado = palavra_frase.replace("", "").lower()
-     if formatado == formatado [::-1]:
-        print("É um Palíndromo.")
-     else: 
-        print("Não é um Palíndromo." )
-else:
-    print("Digite novamente uma palavra ou frase válida.")
+# if isinstance (palavra_frase, str):
+#      formatado = palavra_frase.replace("", "").lower()
+#      if formatado == formatado [::-1]:
+#         print("É um Palíndromo.")
+#      else: 
+#         print("Não é um Palíndromo." )
+# else:
+#     print("Digite novamente uma palavra ou frase válida.")
 
 
+# 23. Calculadora Simples
+# Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. 
+# Use try-except para lidar com divisões por zero e entradas não numéricas. Utilize if-elif-else para 
+# realizar a operação matemática baseada no operador fornecido. 
+# Imprima o resultado ou uma mensagem de erro apropriada.
 
+
+try: 
+    entrada1 = float(input("Digite a primeira entrada: "))
+    entrada2 = float(input("Digite a segunda entrada: "))
+    operacao = input("Insira a operação +, -, *, /: ")
+
+# soma
+    if operacao == '+' :
+        resul= entrada1 + entrada2
+
+    elif  operacao == '-' : 
+        resul = entrada1 - entrada2
+
+    elif operacao == '*':
+        resul = entrada1 * entrada2
+
+    elif operacao == '/':
+        if entrada2 != 0 :
+            resul = entrada1 / entrada2
+
+        else:
+            print("Divisão por zero.")
+            resul = None
+    else: 
+        print("Operador inválido!")
+        resul = None
+    if resul is not None:
+        print("Resultado: ", resul)
+except ValueError:
+    print("Entrada inválida. Insira numeros!")
 
 
 
